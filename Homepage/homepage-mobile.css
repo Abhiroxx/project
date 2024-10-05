@@ -1,0 +1,22 @@
+@media(max-width:600px){
+    .mobile{
+        width: 18rem !important;
+    }
+    .fc{
+        display: flex;
+        flex-direction: column !important;
+        margin-left: 0.4rem !important;
+        margin-right: 0.4rem !important;
+    }
+    .bmain{
+        position: relative;
+        top:70px;
+        /* bottom:600px; */
+        }
+    /* .h1web{
+        display: block;
+    } */
+    /* .h1mobile{
+        display: none;
+    } */
+}

@@ -1,0 +1,63 @@
+@media(max-width:600px) {
+    .nav-tabs {
+        display: flex !important;
+        margin-top: 17%;
+    }
+
+    .latest-news,.TrendingNews,.News,.AfterNews {
+        display: none !important;
+    }
+    .latest-news-mobile {
+        display: flex !important;
+    }
+
+    .carouselsize {
+        position: absolute;
+        top: 15%;
+        height: 300px;;
+        /* margin-bottom: 120px; */
+    }
+  .TrendingNewsMobile{
+    display: flex !important;
+  }
+    .mamta-caption {
+        width: 90% !important;
+        position: absolute;
+        top: 60%;
+        left: 5vw;
+        font-size: 3.5vw;
+    }
+
+    .golden-temple-caption {
+        width: 110% !important;
+        position: absolute;
+        bottom: -30%;
+        font-size: 3.2vw;
+        right: 10%;
+
+    }
+
+    .paraolympics-caption {
+        width: 100%;
+        position: absolute;
+        bottom: -30%;
+        left: 0vw;
+        font-size: 3.5vw;
+    }
+    .pgsize{
+        display: none;
+    }
+}
+
+.nav-tabs {
+    display: none;
+}
+
+.latest-news-mobile {
+    display: none;
+}
+@media(max-width:500px){
+.nav-tabs{
+    margin-top: 7%;
+}
+}
